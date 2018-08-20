@@ -19,5 +19,8 @@
     "babel-preset-es2017": "^6.24.1",
     "google-spreadsheet": "^2.0.5",
     "util": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-json": "^1.2.2"
   }
 }

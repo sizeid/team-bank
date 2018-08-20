@@ -3,5 +3,6 @@
     "targets": {
       "node": "current"
     }
-  }]]
+  }]],
+  "plugins": ["inline-json"]
 }
