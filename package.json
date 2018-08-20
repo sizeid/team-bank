@@ -1,0 +1,23 @@
+{
+  "name": "team-bank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tomas Rokos <tomas@rokos.cz>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf build && mkdir build",
+    "build-babel": "babel -d ./build ./src -s",
+    "build": "npm run clean && npm run build-babel",
+    "start": "node ./build/index.js"
+  },
+  "dependencies": {
+    "@slack/client": "^4.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2017": "^6.24.1",
+    "google-spreadsheet": "^2.0.5",
+    "util": "^0.11.0"
+  }
+}
